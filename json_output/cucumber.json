@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6424939417,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.SetUP()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify Login",
+        "description": "",
+        "id": "login-functionality;verify-login",
+        "after": [
+          {
+            "result": {
+              "duration": 783484986,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.Teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 764195575,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am in login page",
+            "match": {
+              "location": "LoginStepDef.i_am_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2204343966,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter user name and password and click signin button",
+            "match": {
+              "location": "LoginStepDef.user_enter_user_name_and_password_and_click_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 681935905,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify user login successfully",
+            "match": {
+              "location": "LoginStepDef.verify_user_login_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
